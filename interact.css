@@ -1,0 +1,60 @@
+body {
+    background-color: black;
+    text-align: center;
+}
+
+.text-cont {
+    color: white;
+    display: inline-block;
+    /* border: 1px solid white; */
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    margin: 120px 0 0 0;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.text {
+    /* border: 1px solid white; */
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-size: 7rem;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation:
+        typing 2s steps(25),
+        cursor .4s step-end infinite alternate;
+}
+
+@keyframes typing {
+    from { width: 0 }
+}
+
+.btn {
+    color: black;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: cyan;
+    border: 2px solid cyan;
+    border-radius: 50px;
+    box-shadow: 0 0 20px cyan;
+    margin: 140px 200px 0 200px;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 2rem;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px cyan, 0 0 50px cyan, 0 0 100px cyan;
+    cursor: pointer;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
