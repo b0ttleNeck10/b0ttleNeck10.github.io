@@ -68,6 +68,10 @@ a {
 }
 
 @media (max-width: 578px) {
+    body {
+        margin-top: 30%;
+        margin-bottom: 30%;
+    }
     .text-cont {
         margin-top: 60px;
     }
