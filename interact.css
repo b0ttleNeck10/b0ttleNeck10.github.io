@@ -1,6 +1,7 @@
 body {
     background-color: black;
     text-align: center;
+    margin: 0;
 }
 
 .text-cont {
@@ -20,7 +21,7 @@ body {
     margin-right: 0px;
     padding-right: 0px;
     padding-left: 0px;
-    font-size: 7rem;
+    font-size: 6rem;
     width: 100%;
     white-space: nowrap;
     overflow: hidden;
@@ -33,20 +34,27 @@ body {
     from { width: 0 }
 }
 
-.btn {
-    color: black;
+.btn-container {
     display: flex;
     justify-content: center;
     text-align: center;
+}
+
+.btn {
+    color: black;
+    display: inline-block;
     background-color: cyan;
     border: 2px solid cyan;
-    border-radius: 50px;
     box-shadow: 0 0 20px cyan;
-    margin: 140px 200px 0 200px;
+    margin: 140px 300px 0 300px;
+    border-radius: 100px;
     font-family: 'DM Sans', sans-serif;
-    font-size: 2rem;
-    margin-left: 500px;
-    margin-right: 500px;
+    font-size: 3rem;
+    padding: 20px 40px 20px 40px;
+}
+
+.btn p {
+    margin: 0;
 }
 
 .btn:hover {
@@ -57,4 +65,25 @@ body {
 a {
     text-decoration: none;
     color: black;
+}
+
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+.text {
+    font-size: 4rem;
+}
+
+.btn {
+    font-size: 2.2rem;
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px cyan, 0 0 50px cyan, 0 0 100px cyan;
+    cursor: pointer;
+}
+
+p {
+    margin: 0;
+}
+
 }
