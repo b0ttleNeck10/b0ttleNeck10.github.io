@@ -67,23 +67,40 @@ a {
     color: black;
 }
 
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .text {
+        font-size: 3rem;
+    
+    }
+
+    .btn {
+        font-size: 1.7rem;
+        margin-left: 20px;
+        margin-right: 20px;
+        text-align: center;
+    }
+
+    .btn-container {
+        margin: 0px;
+    }
+}
 
 @media (min-width: 768px) and (max-width: 991.98px) {
-.text {
-    font-size: 4rem;
-}
+    .text {
+        font-size: 4rem;
+    }
 
-.btn {
-    font-size: 2.2rem;
-}
+    .btn {
+        font-size: 2.2rem;
+    }
 
-.btn:hover {
-    box-shadow: 0 0 5px cyan, 0 0 50px cyan, 0 0 100px cyan;
-    cursor: pointer;
-}
+    .btn:hover {
+        box-shadow: 0 0 5px cyan, 0 0 50px cyan, 0 0 100px cyan;
+        cursor: pointer;
+    }
 
-p {
-    margin: 0;
-}
+    p {
+        margin: 0;
+    }
 
 }
